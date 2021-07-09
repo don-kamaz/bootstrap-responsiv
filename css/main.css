@@ -155,14 +155,45 @@ section:hover .design-img {
 }
 
 .subtitle-text {
+	padding: 0 270px;
 	margin: 0 auto;
 	width: 560px;
 	text-align: center;
 }
 
+.header-btn {
+	position: relative;
+	width: 200px;
+	padding-left: 40px;
+	margin: 0 auto;
+	border-radius: 30px;
+	background-color: transparent;
+	border: 1px solid #000;
+}
+
+.header-btn:after {
+	position: absolute;
+	top: 15px;
+	left: 15px;
+	background-image: url('../img/play-icon.svg');
+}
+
 .tel-img {
 	margin: 0 auto;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
   Первый экран
 
