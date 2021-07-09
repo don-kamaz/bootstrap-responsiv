@@ -149,6 +149,7 @@ section:hover .design-img {
 }
 
 .main-title {
+	text-align: center;
 	width: 560px;
 	margin: 9px auto;
 }
