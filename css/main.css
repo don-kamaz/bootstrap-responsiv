@@ -9,7 +9,7 @@
 		url('../HelveticaNeueCyr-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
 	font-weight: normal;
 }
-/
+
 @font-face {
 	font-family: 'Helvetica Neue';
 	src: url('../HelveticaNeueCyr-Bold.eot'); /* IE9 Compat Modes */
@@ -24,6 +24,10 @@
 body {
 	font-size: 18px;
 	font-weight: normal;
+}
+
+* {
+  box-sizing: border-box;
 }
 
 button,
@@ -98,163 +102,235 @@ section:hover .design-img {
 	-moz-transform: scale(1.02) ;
 }
 
+.visability-hidden {
+	position: fixed;
+	right: 20vW;
+}
+
 .container {
 	max-width: 1140px;
 	margin: 0 auto;
 }
 
-/*	header	*/
 .header {
 	padding-top: 50px;
-	background:url('../img/Image.png')no-repeat center bottom, url('../img/mountain.jpg')no-repeat center top / cover;
-	padding-bottom: 536px;
+	background: url('../img/phone.png')no-repeat 50%  320%, url('../img/mountain.jpg')no-repeat center top / cover;
+	padding-bottom: 510px;
+}
+
+.menu-item-link {
+	color: #26272d;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.menu-item-link:hover {
+	color: #a7afbd;
+}
+
+.menu-item-link:active {
+	color: #a7afbd;
 }
 
 .menu-item:not(:last-child) {
 	margin-right: 20px;
 }
 
-.menu-item-button {
-	padding-top: -7.5px;
-	margin-left: 20px;
-}
-
-.button-icon-menu {
-	display: none;
-}
-
 .button {
-	display: block;
-	width: 134px;
+	display: flex;
+	width: 170px;
 	position: relative;
+	margin-left: 15px;
+	padding: 10px 0;
 	border-radius: 30px;
-	padding-top: 7.5px;
-	padding-left: 38px;
 	background-color: #267df4;
-	text-align: center;
-	transition: all 0.5s ease;
+	justify-content: center;
+	color: #ffffff;
+	transition: background-color 0.5s ease;
+
 }
 
 .button:before {
 	position: absolute;
 	content: '';
-	top: 7.5px;
+	top: 10px;
 	left: 10px;
-	width: 45px;
-	height: 25px;
-	background-image: url('../img/apple-icon.svg');
-	background-repeat: no-repeat;
-	background-position-x: 0;
-	background-position-y: 50%;
-}
-
-.menu-item-button__link {
-	color: #ffffff;
-}
-
-.center-box {
-	margin: 0 auto 50px;
-	margin-top: 100px;
-	max-width: 600px;
-}
-
-.main-title {
-	text-align: center;
-	width: 100%;
-	text-align: center;
-}
-
-.subtitle-text {
-	margin: 0 auto 50px;
-	width: 100%;
-	text-align: center;
+	width: 22px;
+	height: 24px;
+	background-image: url('../img/icon.svg')no-repeat center top;
+	background-color: black;
+	
 }
 
 .header-btn {
 	display: block;
 	position: relative;
 	width: 200px;
-	padding-left: 40px;
 	margin: 0 auto;
 	border-radius: 30px;
 	background-color: transparent;
 	border: 1px solid #000;
 }
 
-.header-btn:after {
-	position: absolute;
-	top: 15px;
-	left: 15px;
-	background-image: url('../img/play-icon.svg');
+.center-box {
+	margin: 0 auto 50px;
+	max-width: 600px;
 }
 
-.tel-img {
+.main-title {
+	text-align: center;
+	max-width: 100%;
+}
+
+.subtitle-text {
+	margin: 0 auto 50px;
+	max-width: 100%;
+	text-align: center;
+}
+
+.content-1 {
+	padding-top: 200px;
+}
+
+.content-3 {
+	padding-bottom: 40px;
+}
+
+.box-title {
+	margin-top: 40px;
+	margin-bottom: 40pX;
+}
+
+.cell {
 	display: block;
-	margin: 0;
 }
 
-
-.real-time {
-	padding-top: 130px;
+.content-title {
+	font-size: 42px;
+	margin-top: 40px;
+	margin-bottom: 40px;
 }
 
-.col-6-img {
-	width: 100%;
-	height: 570px;
-	background-image: url('../img/big-telephone.png');
-	background-repeat: no-repeat;
-	background-position: cover;
+.box-emblem {
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 
-.d-flex {
-	flex-wrap: wrap;
-	padding: 0;
+.content-pic-title {
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
-.row {
-	margin: 0;
-	padding: 0;
+.box-button {
+	margin-top: 40px;
 }
 
-.col-md-12 {
-	margin: 0;
-	padding: 0;
+.box-emblem {
+	margin-top: 40px;
 }
 
-.col-lg-2,
-.col-lg-8,
-.col-md-2,
-.col-md-8 {
-	padding: 0;
-}
-
-.col-map {
-	width: 100%;
-}
-.map-img {
+.online-map {
 	width: 100%;
 }
 
-
-@media (max-width: 660px){
-	.footer-item-text {
-		width: 100%;
-	}
+.img-mobile {
+	width: 100%;
+	display: block;
 }
 
-@media (min-width: 575px) {
-	.col-md-12 {
-		padding: 0;
-		width: 100%;
+.button {
+	border-radius: 20px;
+}
+
+.button-hack {
+	display: flex;
+	width: 190px;
+	position: relative;
+	margin-left: 15px;
+	padding: 10px;
+	border-radius: 30px;
+	background-color: #267df4;
+	justify-content: center;
+	color: #ffffff;
+}
+
+.button-arrows {
+	display: block;
+	margin-top: 5px;
+	width: 15px;
+	height: 15px;
+	margin-left: 30px;
+}
+
+.button-learn {
+	color: #7a7b7f;
+	border: 1px solid #7a7b7f;
+	justify-content: center;
+	display: flex;
+	width: 170px;
+	margin-left: 15px;
+	padding: 10px 0;
+	border-radius: 20px;
+}
+
+.footer {
+	color: black;
+	padding-bottom: 30px;
+}
+
+.footer-big-title,
+.footer-title {
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.footer-text {
+	color: #8c8f94;
+}
+
+.footer-box {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.footer-logo {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+	.header {
+		padding-top: 50px;
+		background: url('../img/phone.png')no-repeat 50%  250%, url('../img/mountain.jpg')no-repeat center top / cover;
 	}
 
-	.footer-list-text {
-		width: 100%;
+	.col-lg-4 {
+		opacity: 0;
+		display: none;
 	}
 
-	.col-md-2,
-	.col-md-6 {
+		
+	.button-icon-menu {
+		display: block;
+		background: url('../img/icon-menu.png');
+	}
+
+	.icon-menu {
+		opacity: 1;
+		display: block;
+	}
+	
+	.footer .col-lg-5 {
 		width: 50%;
-		padding: 0;
 	}
+}
+
+@media (max-width: 450px) {
+	.header {
+		padding-top: 50px;
+		background: url('../img/phone.png')no-repeat 50%  190%, url('../img/mountain.jpg')no-repeat center top / cover;
+  }
+
+
 }
