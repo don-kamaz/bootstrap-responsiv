@@ -116,7 +116,7 @@ section:hover .design-img {
 	position: relative;
 	padding-top: 50px;
 	background: url('../img/mountain.jpg')no-repeat center top / cover;
-	padding-bottom: 350px;
+	padding-bottom: 380px;
 }
 
 .first-row {
@@ -126,6 +126,10 @@ section:hover .design-img {
 
 .button-icon-menu {
 	background-color: transparent;
+}
+
+.menu-item-button:hover {
+	color: white;
 }
 
 .menu-item-link {
@@ -143,33 +147,20 @@ section:hover .design-img {
 }
 
 .menu-item:not(:last-child) {
-	margin-right: 20px;
+	margin-right: 30px;
 }
 
 .button {
 	display: flex;
 	width: 170px;
 	position: relative;
-	margin-left: 15px;
 	padding: 10px 0;
 	border-radius: 30px;
 	background-color: #267df4;
-	justify-content: center;
+	justify-content:space-around;
 	color: #ffffff;
 	transition: background-color 0.5s ease;
-
-}
-
-.button:before {
-	position: absolute;
-	content: '';
-	top: 10px;
-	left: 10px;
-	width: 22px;
-	height: 24px;
-	background-image: url('../img/icon.svg')no-repeat center top;
-
-	
+	cursor: pointer;
 }
 
 .header-btn {
@@ -179,7 +170,8 @@ section:hover .design-img {
 	margin: 0 auto;
 	border-radius: 30px;
 	background-color: transparent;
-	border: 1px solid #000;
+	border: 1px solid #000 !important;
+	cursor: pointer;
 }
 
 .center-box {
@@ -201,13 +193,16 @@ section:hover .design-img {
 
 .mobile-phone {
 	position: absolute;
-	top: -5vw;
-	right: 30vw;
+	top: 1vw;
+	right: 22vw;
+	z-index: 10;
 }
 
 .content-1 {
+	position: relative;
 	padding-top: 200px;
 	z-index: 20;
+	background: white;
 }
 
 .content-3 {
@@ -299,6 +294,10 @@ section:hover .design-img {
 	padding-bottom: 30px;
 }
 
+.under-logo {
+	margin-top: 20px;
+}
+
 .footer-big-title,
 .footer-title {
 	margin-top: 10px;
@@ -332,9 +331,13 @@ section:hover .design-img {
 	
 	.mobile-phone {
 		position: absolute;
-		top: -50px;
+		top: -160px;
 		right: 38vw;
 		transform: scale(.5);
+	}
+
+	.header {
+		padding-bottom: 250px;
 	}
 }
 
@@ -365,7 +368,7 @@ section:hover .design-img {
 
 	.mobile-phone {
 		position: absolute;
-		top: 10%;
+		top: -150px;
 		right: 28vw;
 		transform: scale(.5);
 	}
@@ -379,7 +382,7 @@ section:hover .design-img {
 @media (max-width: 757px) {
 	.mobile-phone {
 		position: absolute;
-		top: 30px;
+		top: -170px;
 		left: 18vw;
 		transform: scale(.5);
 	}
@@ -388,7 +391,7 @@ section:hover .design-img {
 @media (max-width: 390px) {
 	.mobile-phone {
 		position: absolute;
-		top: 30px;
+		top: -170px;
 		left: -48px;
 }
 
@@ -407,7 +410,7 @@ section:hover .design-img {
 	@media (max-width: 280px) {
 		.mobile-phone {
 			position: absolute;
-			top: 30px;
-			left: -48px;
+			top: -200px;
+			left: -38px;
 	}
 }
