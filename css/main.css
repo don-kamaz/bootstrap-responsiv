@@ -114,8 +114,16 @@ section:hover .design-img {
 
 .header {
 	padding-top: 50px;
-	background: url('../img/phone.png')no-repeat 50%  320%, url('../img/mountain.jpg')no-repeat center top / cover;
-	padding-bottom: 510px;
+	background: url('../img/mountain.jpg')no-repeat center top / cover;
+}
+
+.first-row {
+	padding-left: 120px;
+	flex-wrap: nowrap;
+}
+
+.button-icon-menu {
+	background-color: transparent;
 }
 
 .menu-item-link {
@@ -305,6 +313,10 @@ section:hover .design-img {
 		background: url('../img/phone.png')no-repeat 50%  350%, url('../img/mountain.jpg')no-repeat center top / cover;
 	}
 
+	.first-row {
+		padding-left: 0;
+	}
+
 	.menu-item {
 		opacity: 0;
 		display: none;
@@ -331,6 +343,8 @@ section:hover .design-img {
 		padding-top: 50px;
 		background: url('../img/phone.png')no-repeat 50%  250%, url('../img/mountain.jpg')no-repeat center top / cover;
   }
-
+	.first-row {
+		flex-wrap: wrap;
+	}
 
 }
