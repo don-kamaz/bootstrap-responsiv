@@ -104,7 +104,7 @@ section:hover .design-img {
 
 .visability-hidden {
 	position: fixed;
-	right: 20vW;
+	right: 200vW;
 }
 
 .container {
@@ -302,10 +302,10 @@ section:hover .design-img {
 @media (max-width: 991px) {
 	.header {
 		padding-top: 50px;
-		background: url('../img/phone.png')no-repeat 50%  250%, url('../img/mountain.jpg')no-repeat center top / cover;
+		background: url('../img/phone.png')no-repeat 50%  350%, url('../img/mountain.jpg')no-repeat center top / cover;
 	}
 
-	.col-lg-4 {
+	.menu-item {
 		opacity: 0;
 		display: none;
 	}
@@ -329,7 +329,7 @@ section:hover .design-img {
 @media (max-width: 450px) {
 	.header {
 		padding-top: 50px;
-		background: url('../img/phone.png')no-repeat 50%  190%, url('../img/mountain.jpg')no-repeat center top / cover;
+		background: url('../img/phone.png')no-repeat 50%  250%, url('../img/mountain.jpg')no-repeat center top / cover;
   }
 
 
