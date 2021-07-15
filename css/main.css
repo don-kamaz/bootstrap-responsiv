@@ -196,6 +196,7 @@ section:hover .design-img {
 	top: 1vw;
 	right: 22vw;
 	z-index: 10;
+	background: url('../img/phone.png')no-repeat center top;
 }
 
 .content-1 {
@@ -320,8 +321,13 @@ section:hover .design-img {
 }
 
 @media (max-width: 1190px) {
-	.first-row {
-		flex-wrap: wrap;
+	.menu-item-link {
+		display: none;
+	}
+
+	.menu-item {
+		opacity: 0;
+		display: none;
 	}
 
 	.menu-col-item {
@@ -342,15 +348,6 @@ section:hover .design-img {
 }
 
 @media (max-width: 991px) {
-	.first-row {
-		padding-left: 0;
-	}
-
-	.menu-item {
-		opacity: 0;
-		display: none;
-	}
-
 		
 	.button-icon-menu {
 		display: block;
@@ -373,10 +370,6 @@ section:hover .design-img {
 		transform: scale(.5);
 	}
 
-	.content-1 {
-		z-index: 20;
-	}
-
 }
 
 @media (max-width: 757px) {
@@ -386,6 +379,10 @@ section:hover .design-img {
 		left: 18vw;
 		transform: scale(.5);
 	}
+	.first-row {
+		padding-left: 0;
+	}
+
 }
 
 @media (max-width: 390px) {
