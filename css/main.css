@@ -119,17 +119,49 @@ section:hover .design-img {
 	padding-bottom: 380px;
 }
 
-.first-row {
-	padding-left: 120px;
-	flex-wrap: nowrap;
+.third-child {
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+}
+
+.second-child {
+	display: flex;
+	justify-content: center;
+}
+
+.header-menu	{
+	display: flex;
+	align-items: center;
 }
 
 .button-icon-menu {
 	background-color: transparent;
+	margin-left: 25px;
+}
+
+.menu-item-button {
+	margin-left: 25px;
+	background: #267df4;
+	color: #fff;
+	width: 130px;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 30px;
+}
+
+.menu-item-button:before {
+	content: "";
+	display: inline-block;;
+	background: url('../img/apple-icon.svg');
+	width: 15px;
+	height: 20px;
 }
 
 .menu-item-button:hover {
-	color: white;
+	color: #fff;
 }
 
 .menu-item-link {
