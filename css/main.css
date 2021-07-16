@@ -119,6 +119,10 @@ section:hover .design-img {
 	padding-bottom: 380px;
 }
 
+.menu-list {
+	display: flex;
+}
+
 .third-child {
 	display: flex;
 	align-items: center;
@@ -232,6 +236,10 @@ section:hover .design-img {
 	margin: 0 auto 50px;
 	max-width: 100%;
 	text-align: center;
+}
+
+.logo-play-img {
+	margin-right: 15px;
 }
 
 .mobile-phone {  
@@ -377,7 +385,12 @@ section:hover .design-img {
 @media (max-width: 991px) {
 	.header {
 		padding-bottom: 370px;
-	}		
+	}
+	
+	.menu-list {
+		display: none;
+	}
+
 	.button-icon-menu {
 		display: block;
 		background-color: transparent;
@@ -398,16 +411,23 @@ section:hover .design-img {
 
 @media (max-width: 757px) {
 
+	 .menu-item-button {
+		 display: none;
+	 }
+
 	.first-row {
 		padding-left: 0;
+	}
+		.mobile-phone {
+		width: 100%;
+		padding: 0px 15px;
+		transform: scale(.7);
 	}
 
 }
 
 @media (max-width: 450px) {
-	.header {
-		padding-bottom: 370px;
-	}
+
 	.first-row {
 		flex-wrap: wrap;
 	}
@@ -419,6 +439,12 @@ section:hover .design-img {
 	}
 	.menu-item-button {
 		margin: 0 auto;
+	}
+	
+	.mobile-phone {
+		width: 100%;
+		padding: 0 15px;
+		transform: scale(.5);
 	}
 }
 
@@ -434,12 +460,6 @@ section:hover .design-img {
 	.main-title {
 		font-size: 42px;
 	}
-
-	.mobile-phone {
-		transform: scale();
-	}
-
-
 }
 
 @media (max-width: 280px) {
