@@ -116,7 +116,7 @@ section:hover .design-img {
 	position: relative;
 	padding-top: 50px;
 	background: url('../img/mountain.jpg')no-repeat center top / cover;
-	padding-bottom: 380px;
+	min-height: 930px;
 }
 
 .menu-list {
@@ -410,20 +410,24 @@ section:hover .design-img {
 }
 
 @media (max-width: 757px) {
-
-	 .menu-item-button {
+  .header {
+		min-height: 390px;
+  }
+	.menu-item-button {
 		 display: none;
-	 }
-
-	.first-row {
-		padding-left: 0;
 	}
+
 		.mobile-phone {
 		width: 100%;
-		padding: 0px 15px;
-		transform: scale(.7);
+		padding: 0 15px;
+		transform: scale(.5);
 	}
+}
 
+@media (min-width: 512px) {
+	.offer-top {
+		max-height: 444px;
+	}
 }
 
 @media (max-width: 450px) {
@@ -443,14 +447,14 @@ section:hover .design-img {
 	
 	.mobile-phone {
 		width: 100%;
-		padding: 0 15px;
+		padding: 10px 15px;
 		transform: scale(.5);
 	}
 }
 
 @media (max-width: 390px) {
 	header {
-		padding-bottom: 150px;
+		min-height: 350px;
 	}
 
 	.content-1 {
