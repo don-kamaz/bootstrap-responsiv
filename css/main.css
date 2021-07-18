@@ -159,7 +159,7 @@ section:hover .design-img {
 .menu-item-button:before {
 	content: "";
 	display: inline-block;
-	background-image: url('../img/apple-icon.svg');
+	background-image: url('../img/apple-icon.png');
 	width: 17px;
 	height: 20px;
 	margin-right: 10px;
