@@ -425,7 +425,6 @@ section:hover .design-img {
 }
 
 @media (max-width: 450px) {
-
 	.first-row {
 		flex-wrap: wrap;
 	}
