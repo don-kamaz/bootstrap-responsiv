@@ -438,12 +438,6 @@ section:hover .design-img {
 	.menu-item-button {
 		margin: 0 auto;
 	}
-	
-	.mobile-phone {
-		width: 100%;
-		padding: 10px 15px;
-		transform: scale(.5);
-	}
 }
 
 @media (max-width: 390px) {
@@ -465,6 +459,12 @@ section:hover .design-img {
 
 	.button-hack {
 		margin-bottom: 10px;
+	}
+
+	.mobile-phone {
+		width: 100%;
+		padding: 10px 15px;
+		transform: scale(.5);
 	}
 }
 
