@@ -416,12 +416,6 @@ section:hover .design-img {
 	.menu-item-button {
 		 display: none;
 	}
-
-		.mobile-phone {
-		width: 100%;
-		padding: 0 15px;
-		transform: scale(.5);
-	}
 }
 
 @media (min-width: 512px) {
@@ -463,6 +457,14 @@ section:hover .design-img {
 
 	.main-title {
 		font-size: 42px;
+	}
+
+	.btn-box {
+		flex-wrap: wrap;
+	}
+
+	.button-hack {
+		margin-bottom: 10px;
 	}
 }
 
