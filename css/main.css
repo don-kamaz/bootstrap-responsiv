@@ -150,6 +150,7 @@ section:hover .design-img {
 	color: #fff;
 	width: 130px;
 	height: 45px;
+	padding-left: 10px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -189,12 +190,11 @@ section:hover .design-img {
 
 .button {
 	display: flex;
-	width: 170px;
+	width: 140px;
 	position: relative;
 	padding: 10px 0;
 	border-radius: 30px;
 	background-color: #267df4;
-	justify-content:space-around;
 	color: #ffffff;
 	transition: background-color 0.5s ease;
 	cursor: pointer;
@@ -384,7 +384,7 @@ section:hover .design-img {
 
 @media (max-width: 991px) {
 	.header {
-		padding-bottom: 370px;
+		padding-bottom: 442px;
 	}
 	
 	.menu-list {
@@ -404,25 +404,17 @@ section:hover .design-img {
 	.footer .col-lg-5 {
 		width: 50%;
 	}
-
-
-
 }
 
 @media (max-width: 757px) {
   .header {
-		min-height: 390px;
+		min-height: 490px;
   }
 	.menu-item-button {
 		 display: none;
 	}
 }
 
-@media (min-width: 512px) {
-	.offer-top {
-		max-height: 444px;
-	}
-}
 
 @media (max-width: 450px) {
 	.first-row {
@@ -447,7 +439,7 @@ section:hover .design-img {
 
 @media (max-width: 390px) {
 	header {
-		min-height: 350px;
+		min-height: 150px;
 	}
 
 	.content-1 {
@@ -465,14 +457,10 @@ section:hover .design-img {
 	.button-hack {
 		margin-bottom: 10px;
 	}
-
-	.mobile-phone {
-		width: 100%;
-		padding: 10px 15px;
-		transform: scale(.5);
-	}
 }
 
 @media (max-width: 280px) {
-
+	header {
+		min-height: 150px;
+	}
 }
