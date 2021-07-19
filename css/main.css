@@ -141,7 +141,7 @@ section:hover .design-img {
 
 .button-icon-menu {
 	background-color: transparent;
-	margin-left: 25px;
+	margin-right: 25px;
 }
 
 .menu-item-button {
@@ -190,10 +190,10 @@ section:hover .design-img {
 
 .button {
 	display: flex;
-	width: 135ёpx;
+	width: 130px;
 	position: relative;
 	padding: 10px 0;
-	border-radius: 30px;
+	border-radius: 40px;
 	background-color: #267df4;
 	color: #ffffff;
 	transition: background-color 0.5s ease;
@@ -203,16 +203,22 @@ section:hover .design-img {
 .header-btn {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-around;
 	position: relative;
 	width: 200px;
 	padding: 11px 0;
 	margin: 0 auto;
+	color: #26272d;
 	border-radius: 30px;
 	background-color: transparent;
 	border: 1px solid #000 !important;
 	cursor: pointer;
 	background: none;
+}
+
+.logo-play-img {
+	background-color: transparent;
+  margin-right: 10px;
 }
 
 .second-child {
@@ -226,6 +232,8 @@ section:hover .design-img {
 }
 
 .main-title {
+	margin: 0;
+	margin-bottom: 26px;
 	text-align: center;
 	max-width: 100%;
 	font-size: 62px;
@@ -238,10 +246,6 @@ section:hover .design-img {
 	text-align: center;
 }
 
-.logo-play-img {
-	margin-right: 15px;
-}
-
 .mobile-phone {  
 	margin: 0 auto;
 	display: flex;
@@ -250,20 +254,31 @@ section:hover .design-img {
 	right: 0;
 }
 
-.content-1 {
+.information {
 	position: relative;
-	padding-top: 200px;
+	padding-top: 112px;
+	padding-bottom: 45px;
 	z-index: 20;
 	background: white;
 }
 
-.content-3 {
+.safety {
+	padding-top: 45px;
+}
+
+.logistics {
 	padding-bottom: 40px;
+}
+
+.box-text:last-child {
+	margin-bottom: 0;
 }
 
 .box-title {
 	margin-top: 40px;
-	margin-bottom: 40pX;
+	margin-bottom: 20px;
+	color: #26272d;
+	font-size: 26px;
 }
 
 .cell {
@@ -273,7 +288,8 @@ section:hover .design-img {
 .content-title {
 	font-size: 42px;
 	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-bottom: 20px;
+	color: #26272d;
 }
 
 .box-emblem {
@@ -302,6 +318,7 @@ section:hover .design-img {
 }
 
 .img-mobile {
+	margin-left: -95px;
 	width: 100%;
 	display: block;
 }
@@ -314,7 +331,6 @@ section:hover .design-img {
 	display: flex;
 	width: 190px;
 	position: relative;
-	margin-left: 15px;
 	padding: 10px;
 	border-radius: 30px;
 	background-color: #267df4;
