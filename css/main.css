@@ -504,6 +504,10 @@ section:hover .design-img {
 	.button-hack {
 		margin-bottom: 10px;
 	}
+
+	.content-title {
+		font-size: 32px;
+	}
 }
 
 @media (max-width: 707px) {
