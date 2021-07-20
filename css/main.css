@@ -452,6 +452,10 @@ section:hover .design-img {
 	.cell {
 		display: inline-block;
 	}
+
+	.footer {
+		padding-top: 50px;
+	}
 }
 
 @media (max-width: 757px) {
