@@ -203,16 +203,15 @@ section:hover .design-img {
 .header-btn {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: center;
 	position: relative;
 	width: 200px;
 	padding: 11px 0;
 	margin: 0 auto;
 	color: #26272d;
-	border-radius: 30px;
+	border-radius: 40px;
 	background-color: transparent;
 	border: 1px solid #000 !important;
-	cursor: pointer;
 	background: none;
 }
 
