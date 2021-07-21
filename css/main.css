@@ -532,18 +532,7 @@ section:hover .design-img {
 	}
 }
 
-	.footer-logotype,
-	.footer-logo {
-		display: block;
-		width: 40%;
-		margin: 0 auto;
-	}
 
-	.footer-title,
-	.footer-text {
-		text-align: center;
-	}
-}
 
 @media (max-width: 450px) {
 	.first-row {
@@ -553,7 +542,7 @@ section:hover .design-img {
 	.mobile-phone {
 		width: 100%;
 		padding: 10px 15px;
-		transform: scale(.5);
+		transform: scale(1.1);
 	}
 
 	.footer-padding-bottom:last-child {
