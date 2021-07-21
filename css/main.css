@@ -215,6 +215,10 @@ section:hover .design-img {
 	background: none;
 }
 
+.header-btn:hover {
+	color: #a7afbd;
+}
+
 .logo-play-img {
 	background-color: transparent;
   margin-right: 18px;
