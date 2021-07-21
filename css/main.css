@@ -23,7 +23,7 @@
 
 body {
 	font-size: 18px;
-	font-weight: normal;
+	font-weight: 400;
 }
 
 * {
@@ -263,6 +263,7 @@ section:hover .design-img {
 
 .safety {
 	padding-top: 45px;
+	padding-bottom: 45px;
 }
 
 .logistics {
@@ -510,6 +511,10 @@ section:hover .design-img {
   .header {
 		min-height: 490px;
   }
+
+	.footter {
+		padding-bottom: 30px;
+	}
 }
 
 @media (max-width: 896px) {
@@ -521,7 +526,12 @@ section:hover .design-img {
 	}
 }
 
-@media (max-width: 566px) {
+@media (max-width: 575px) {
+	.menu-item-button {
+		display: none;
+	}
+}
+
 	.footer-logotype,
 	.footer-logo {
 		display: block;
@@ -533,20 +543,11 @@ section:hover .design-img {
 	.footer-text {
 		text-align: center;
 	}
-		
-	
-	.menu-item-button {
-		display: none;
- }
 }
 
 @media (max-width: 450px) {
 	.first-row {
 		flex-wrap: wrap;
-	}
-
-	.menu-item-button {
-		margin: 0 auto;
 	}
 
 	.mobile-phone {
@@ -555,7 +556,11 @@ section:hover .design-img {
 		transform: scale(.5);
 	}
 
-	#footer {
+	.footer-padding-bottom:last-child {
+		padding-bottom: 0;
+	}
+
+	.footer {
 		padding-bottom: 60px;
 	}
 }
@@ -591,6 +596,6 @@ section:hover .design-img {
 
 @media (max-width: 280px) {
 	header {
-		min-height: 150px;
+		min-height: 50px;
 	}
 }
