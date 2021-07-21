@@ -217,7 +217,7 @@ section:hover .design-img {
 
 .logo-play-img {
 	background-color: transparent;
-  margin-right: 10px;
+  margin-right: 18px;
 }
 
 .second-child {
@@ -310,6 +310,10 @@ section:hover .design-img {
 
 .box-emblem {
 	margin-top: 40px;
+}
+
+.link_pic:first-child {
+	margin-right: 35px;
 }
 
 .online-map {
@@ -542,7 +546,6 @@ section:hover .design-img {
 	.mobile-phone {
 		width: 100%;
 		padding: 10px 15px;
-		transform: scale(1.1);
 	}
 
 	.footer-padding-bottom:last-child {
