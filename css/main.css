@@ -430,12 +430,18 @@ section:hover .design-img {
 }
 
 @media (max-width: 991px) {
-
+	.padding-second-top {
+		padding-top: 30px;
+	}
 	.footer-logotype,
 	.footer-logo {
 		display: block;
 		width: 40%;
 		margin: 0 auto;
+	}
+
+	.cell {
+		display: inline-block;
 	}
 
 	.footer-title,
@@ -491,10 +497,6 @@ section:hover .design-img {
 }
 
 @media (max-width: 767px) {
-	.padding-second-top {
-		padding-top: 30px;
-	}
-
 	.cell {
 		display: inline-block;
 	}
@@ -516,6 +518,7 @@ section:hover .design-img {
 	.footer-text {
 		text-align: center;
 	}
+
   .header {
 		min-height: 490px;
   }
