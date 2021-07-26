@@ -448,7 +448,17 @@ section:hover .design-img {
 	.footer-text {
 		text-align: center;
 	}
+
+	.img-mobile {
+		margin-right: 0;
+		margin-left: 0;
+	}
 	
+	.online-map {
+		margin-right: 0;
+		margin-left: 0;
+	}
+
 	.header {
 		padding-bottom: 442px;
 	}
