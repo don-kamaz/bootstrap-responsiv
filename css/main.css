@@ -436,7 +436,6 @@ section:hover .design-img {
 	.footer-logotype,
 	.footer-logo {
 		display: block;
-		width: 40%;
 		margin: 0 auto;
 	}
 
@@ -520,7 +519,6 @@ section:hover .design-img {
 	.footer-logotype,
 	.footer-logo {
 		display: block;
-		width: 40%;
 		margin: 0 auto;
 	}
 
@@ -600,6 +598,12 @@ section:hover .design-img {
 	.button-hack,
 	.button-learn {
 		width: 100%;
+	}
+}
+
+@media (max-width: 368px) {
+	.link_pic:first-child {
+		margin-bottom: 10px;
 	}
 }
 
